@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.bg-image {
+    background-image: url('../../assets/summer_coll/images/image\ 6.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 50px;
+    position: relative;
+}
+
+.text-highlight {
+    color: #f04e45;
+}
+
+.countdown{
+    
+}
+
+.countdown h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.countdown p {
+    font-size: 1rem;
+    margin-top: -10px;
+}
+
+@media (max-width: 768px) {
+    .text-md-start {
+        text-align: center;
+    }
+
+    .text-md-end img {
+        display: none;
+    }
+}
